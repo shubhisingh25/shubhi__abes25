@@ -1,0 +1,400 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            box-sizing: border-box;
+            float:left;
+            height:50px;
+           
+            float:left;
+            width:100%; 
+            padding: 10px;
+        }
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        #brnd{
+            padding: 0;
+            margin: 0;
+            float:left;
+            margin: 100 px;
+        }
+        #tag_line{
+            float: right;
+          
+           }
+        nav{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(18, 151, 107);
+            box-sizing: border-box;
+            float: left;
+            padding: 30px;
+        }
+        #search{
+            width: 400px;
+            height: 35px;
+            float: left;
+            box-sizing: border-box;
+            border: none;
+            padding: 10px;
+        }
+        #searchbtn{
+            width: 100px;
+            height: 35px;
+            float: left;
+            box-sizing: border-box;
+            border: none;
+            margin-left:3px;
+            font-size: 16px;
+        }
+       /* #menu_table{
+            width: 600px;
+            height:40px;
+            float:right ;
+            box-sizing: border-box;
+            background-color: aliceblue;
+            text-align: center;
+        }
+        #menu_item{
+            background-color: aliceblue;
+        }
+        /*a{
+            color: black;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+            */
+            nav ul {
+                list-style-type: none;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+            float: right;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            background-color: aliceblue;
+            float: right;
+        }
+
+        nav ul li a {
+            color: rgb(35, 23, 23);
+            text-decoration: none;
+            padding: 8px 16px;
+          
+            float: right;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+            border-radius: 4px;
+        }
+            section{
+                width: 100%;
+                height: 2000px;
+                float: left;
+                box-sizing: border-box;
+                border-color: blue;
+                border-style: solid;
+                border-width: 1px;
+                padding: 30px;
+            }
+            #venue{
+                float: left;
+                font-size:medium;
+            }
+            #phone{
+                float: right;
+                font-size: medium;
+            }
+          #st{
+            width: 680px;
+            height: 600px;
+            box-sizing: border-box;
+            background-color: rgb(116, 93, 138);
+            clear: both;
+           /*div's CSS to prevent it from floating next to the addresses.*/
+            margin-top: 30px;
+            padding: 20px;
+            float: left;
+          }
+          #st_title{
+            margin-top: 20px;
+            color:rgb(248, 242, 242);
+            text-align: center;
+            font-size: 30px;
+            padding:  20px;
+
+          }
+          #ppsweet_img{
+            width: 300px;
+            height: 200px;
+         
+           box-sizing: border-box;
+           border-width:2px ;
+           border-style: solid;
+           border-color:aliceblue;
+           margin-left: 11px;
+          }
+          #rate_list{
+            height:600px;
+            width: 500px;
+            float: right;
+            box-sizing: border-box;
+            margin-top: 30px;
+            border-style: solid;
+            border-width: 2px;
+            border-color: #0f0c0c;
+          }
+          #sweet_name{
+           height:50px;
+           background-color: #0f0c0c;
+           color: aliceblue;
+            text-align: center;
+           }
+          #sweet_name{
+            height:50px;
+            background-color: #1d1515;
+            color: aliceblue;
+          text-align:center;
+          }
+          #rate_content{
+              background-color: rgb(116, 147, 249);
+          }
+          #s_name{
+            font-size: 20px;
+            padding: 20px;
+            text-align: center;
+            color: #f9f2f2;
+             font-family: 'Times New Roman', Times, serif;
+             border-bottom-width:2px;
+             border-bottom-style:solid;
+             border-bottom-color: #f9f2f2;
+          }
+          #rate
+          {
+            list-style: none;
+          }
+          fieldset{
+            width: 690px;
+            height:550px;
+            float:left;
+            margin-top: 50px;
+            border-width: 1px;
+            border-color: #0f0c0c;
+            font-weight:bold ;
+            font-size: 30px;
+            padding: 2px;
+          border-width: 2px;
+           background-color: rgb(160, 232, 232);
+          }
+          #order_online{
+            font-size:12px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+             padding: 10px;
+          }
+          #order_input{
+            width:100%;
+            height:33px;
+            box-sizing: border-box;
+            border-width: 1px;
+            border-style:solid;
+            border-color:#201212;
+            font-size: 50px;
+            padding: 30px;
+          }
+          #submitbtn{
+            padding: 10px;
+            font-size:12px;
+            margin-top: 10px;
+            float: right;
+            border-style: solid;
+            border-width:1px;
+
+          }
+          #abt_us{
+            width:450px;
+            height: 543px;
+            float: right;
+            border-width: 2px;
+            border-color: #0f0c0c;
+            border-style:solid;
+            box-sizing: border-box;
+            margin-top: 65px;
+           text-align: center;
+           
+          
+          }
+          p{
+            padding: 10px;
+            font-size: larger;
+            margin-top: 15px;
+            text-align: justify;
+            line-height:23px ;
+          }
+          #abt{
+          padding: 15px;
+          }
+          #msweets
+          {
+            float: left;
+             width: 100%;
+            box-sizing: border-box;
+            font-size: larger;
+            margin-top:35px;
+          }
+          
+          
+          #more_sweets{
+            font-weight: 20px;
+             text-align: center;
+             margin-top: 20px;
+          }
+          #msweets2{
+            width: 200px;
+            height: 250px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #0f0c0c;
+            float: left;
+            margin: 17px;
+            margin-right: 15px;
+            margin-top: 40px;
+          }
+    </style>
+</head>
+<body>
+   
+    <header>
+          <h1 id="brnd">Sweetshop.com</h1>
+          <p id="tag_line">thw world's largest sweets and bakeries shop</p>
+    </header>
+    <nav class="navbar">
+        <form>
+            <input type="search" name="search" placeholder="Search your sweets"
+            id="search">
+            <input type="submit" id="searchbtn">
+          </form>
+          <ul id="menu_table">
+            </table>
+                <li id="menu_item"><a href="#">home</a></li>
+                <li id="menu_item"><a href="#">sweets</a></li>
+                <li id="menu_item"><a href="#">Bakeries</a></li>
+                <li id="menu_item"><a href="#">About us</a></li>
+                <li id="menu_item"><a href="#">contach us</a></li>
+            </ul>
+    </nav>
+    <section>
+    <address id="venue"><b>Venue:patel nagar,new delhi-11008</b></address>
+    <address id="phone"><b>order online:+91 8882880965</b></address>
+    <div id="st" >
+        <h1 id="st_title">
+          Our populat sweets
+        </h1>
+       
+        <img src="https://media.istockphoto.com/id/1054228718/photo/indian-sweets-in-a-plate-includes-gulab-jamun-rasgulla-kaju-katli-morichoor-bundi-laddu.jpg?s=612x612&w=is&k=20&c=9LHsTxZHckDmW653oFmkgvzjyMiJfwRFpYbIPP1YVtQ=" alt="sweet2" id="ppsweet_img">
+        <img src="https://media.istockphoto.com/id/523041362/photo/indian-sweets.jpg?s=612x612&w=is&k=20&c=8rYyutjP2f65ZU-vovk3ckzz8hIM8Sz9xQnH3jq4rks=" alt="sweet3" id="ppsweet_img">
+        <img src="https://media.istockphoto.com/id/996171142/photo/multicolored-rahat-lukum-on-the-table-followed-by-cups-with-fragrant-turkish-coffee.jpg?s=612x612&w=0&k=20&c=o3WG8U2qZgaz7b_vSRTPt8PrBVGMfHg_XbMHfVoQ3QM=" alt="sweet5" id="ppsweet_img">
+        <img src="https://media.istockphoto.com/id/510743375/photo/baklava-with-pistachio-turkish-traditional-delight.jpg?s=612x612&w=is&k=20&c=kmaV7mL5WLxAYFHy2CdNsq9l3PL4YbLNxKdIFaTh-xY= "alt="sweet6" id="ppsweet_img">
+    </div>
+    <table id="rate_list" border="1">
+<tr>
+<td id="sweet_name">Sweets Name</td>
+<td id="sweet_name">Price</td>
+</tr>
+
+<tr>
+<td id="rate_content">
+    <ol>
+        <li id="s_name">laddu</li>
+        <li id="s_name">barfi</li>
+        <li id="s_name">rasgulla</li>
+        <li id="s_name">chenna</li>
+        <li id="s_name">ras malai</li>
+        <li id="s_name">kaju katli</li>
+        <li id="s_name">kalakand</li>
+        <li id="s_name">kalakand</li>
+    </ol>
+</td>
+<td id="rate_content">
+    <ol id="rate">
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+        <li id="s_name">1000</li>
+    </ol>
+</td>
+</tr>
+    </table>
+ <fieldset>
+<legend>order online</legend>
+<form id="order_online">
+    Buyer Name<br>
+    <input type="text" name="name" id="order_input"><br><br>
+    Mobile Number<br>
+    <input type="number" name="mobile" id="order_input"><br><br>
+    Choose Sweets<br>
+    <select name="choose_name">
+     <option value="rasgulla">Rasgulla</option>
+     <option value="Barfee">Barfee</option>
+     <option value="Ras malai">Ras malai</option>
+     <option value="cheena">Chenna</option>
+    </select>
+    <br><br>
+    Quantity<br>
+    <input type="text" name="quantity" id="order_input">
+    <br><br>
+    Address <br>
+    <textarea name="address" id="order_input"></textarea>
+      <br><br>
+      <input type="submit" value="order_now" id="submitbtn";
+</form>
+ </fieldset>
+ <div id="abt_us">
+  <h1 id="abt">About us</h1><hr>
+  <p>Mithai (sweets) are the confectionery and desserts of the Indian subcontinent.[1][2] Thousands of dedicated shops in India, Bangladesh, Nepal, Pakistan and Sri Lanka sell nothing but sweets.[citation needed]
+
+    Sugarcane has been grown in the Indian subcontinent for thousands of years, and the art of refining sugar was invented there 8000 years ago (6000 BCE) by the Indus Valley civilisation.[3][4][5] The English word "sugar" comes from a Sanskrit word sharkara for refined sugar, while the word "candy" comes from Sanskrit word khaanda for the unrefined sugar – one of the simplest raw forms of sweet.[6] Over its long history, cuisines of the Indian subcontinent developed a diverse array of sweets. Some[5] claim there is no other region in the world where sweets are so varied, so numerous, or so invested with meaning as the Indian subcontinent.
+  </p>
+ </div>
+
+ <div id="msweets">
+    <h1 id="more_sweets">More Sweets</h1>
+ </div>
+
+ <div id="msweets2">
+
+ </div>
+ <div id="msweets2">
+
+ </div>
+ <div id="msweets2">
+
+ </div>
+ <div id="msweets2">
+
+ </div>
+ <div id="msweets2">
+
+ </div>
+</section>
+    <footer>
+
+    </footer>
+</body>
